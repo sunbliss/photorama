@@ -1,0 +1,19 @@
+{
+  "name": "photorama",
+  "description": "Photo Journal",
+  "main": "index.html",
+  "moduleType": [],
+  "authors": [
+    "Anna Prigkipaki"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

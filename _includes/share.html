@@ -1,0 +1,39 @@
+<div class="post-share text-center">
+    <p class="light small">
+        <h6>Share this post</h6>
+    </p>
+    <ul class="social-mini">
+
+       <li>
+            <a  href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
+            onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" data-toggle="tooltip" title="Share on Facebook" itemprop="Facebook">
+                <span class="fa-stack fa-lg" style="
+color: #223333;font-size:1em;">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+            </a>
+        </li>
+
+ <li>
+            <a href="https://twitter.com/intent/tweet?text=&quot;{{ page.title }}&quot;%20{{ site.url }}{{ page.url }}%20via%20&#64;{{ site.owner.twitter }}"
+            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip" title="Share on Twitter" itemprop="Twitter">
+                <span class="fa-stack fa-lg" style="
+color: #223333;font-size:1em;">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+            </a>
+        </li>
+
+                <li>
+            <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"
+           onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" data-toggle="tooltip" title="Share on Google plus" itemprop="GooglePlus">
+                <span class="fa-stack fa-lg" style="
+color: #223333;font-size:1em;">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                            </span>
+            </a>
+        </li>
+    </ul></div>
