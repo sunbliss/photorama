@@ -1,5 +1,7 @@
- p h o t o r a m a 
+ <center> p h o t o r a m a </center>
 ====================
+
+<center> ![photorama](https://raw.githubusercontent.com/sunbliss/photorama/gh-pages/photorama_thumb.gif)</center>
 
 ----------
 
