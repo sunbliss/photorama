@@ -1,7 +1,10 @@
- <center> p h o t o r a m a </center>
+p h o t o r a m a 
 ====================
 
-<center> ![photorama](https://raw.githubusercontent.com/sunbliss/photorama/gh-pages/photorama_thumb.gif)</center>
+![photorama](https://raw.githubusercontent.com/sunbliss/photorama/gh-pages/photorama_thumb.gif)
+
+
+![Speed Test](https://raw.githubusercontent.com/sunbliss/photorama/gh-pages/Website%20Speed%20Test.png)
 
 ----------
 
