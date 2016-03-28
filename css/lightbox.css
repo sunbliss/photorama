@@ -61,7 +61,7 @@ body:after {
 }
 
 .lb-container {
-  padding: 4px;
+  padding: 0;
 }
 
 .lb-loader {
