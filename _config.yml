@@ -1,9 +1,9 @@
 # Site settings
-title: PHOTORAMA
+title: Thoshith Soch
 email: ""
 description: "Photo Journal"
-url: "http://sunbliss.github.io"
-baseurl: /photorama
+url: "http://thoshith.github.io"
+baseurl: /
 instagram_username: ""
 github_username:  ""
 deviantart_username: ""
@@ -13,7 +13,7 @@ share: true
 
 # Owner/author information
 owner:
-  name:   "photorama"
+  name:   "thoshith"
   avatar: avatar.png
   favicon: favicon.ico
   description: "Photo Journal"
@@ -31,9 +31,9 @@ comments :
 
 # Internal nav
 nav:
- journal: "baseurl/journal/"
- gallery: "baseurl/gallery/"
- about: "baseurl/about/"
+ journal: "/journal/"
+ gallery: "/gallery/"
+ about: "/about/"
 
 # All translation keys
 translations:
