@@ -1,0 +1,62 @@
+---
+layout: page
+title: "categories"
+description: "ARCHIVE"
+header-img: "img/misc-bg.jpg"
+---
+
+{% assign rawcategories = "" %}
+{% for post in site.posts %}
+{% assign tcategories = post.categories | join:'|' | append:'|' %}
+{% assign rawcategories = rawcategories | append:tcategories %}
+{% endfor %}
+
+{% assign rawcategories = rawcategories | split:'|' | sort %}
+
+{% assign categories = "" %}
+
+{% for category in rawcategories %}
+{% if tag != "" %}
+
+{% if categories == "" %}
+{% assign categories = category | split:'|' %}
+{% endif %}
+
+{% unless categories contains category %}
+{% assign categories = categories | join:'|' | append:'|' | append:category | split:'|' %}
+{% endunless %}
+{% endif %}
+{% endfor %}
+
+<h1 class="page-title">
+  <a href="{{ site.baseurl }}/journal/" style="text-decoration:none;" >JOURNAL</a> &#8652; {{ page.title }}
+</h1>
+<br/>
+
+<div class="posts">
+<p>
+{% for category in categories %}
+<a href="#{{ category | slugify }}" class="category-mark" style="text-decoration:none;"> {{ category }} </a> &nbsp;&nbsp;
+{% endfor %}
+
+{% for category in categories %}
+<h2 id="{{ category | slugify }}" style="text-decoration:none;">{{ category }}</h2>
+<div class="category-list">
+  {% for post in site.posts %}
+  {% if post.categories contains category %}
+      <h3>
+      <a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration:none;">
+        {{ post.title }}
+      </a> 
+&#9676; <small>{{ post.date | date_to_string }}</small> &#9676; 
+      
+      {% for tag in post.tags %}
+      <a href="{{ site.baseurl }}/journal/tag/{{ tag | slugify }}/" style="text-decoration:none;"><i class="fa fa-tags" style="color:#fff;"></i>&nbsp;{{ tag }}</a>
+      {% endfor %}
+    </h3>
+  {% endif %}
+  {% endfor %}
+</div>
+{% endfor %}
+
+</div>

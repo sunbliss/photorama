@@ -1,0 +1,35 @@
+.tags-wrap {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.categories .category-list {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 450px) {
+  .categories .category-list {
+    font-size: 16px;
+  }
+}
+
+.tags .tag-list {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 450px) {
+  .tags .tag-list {
+    font-size: 16px;
+  }
+}
+
+hr.medium {
+    max-width: 450px;
+    margin: 15px auto;
+    border-width: 4px;
+    border-color: #d9d4d0;
+}

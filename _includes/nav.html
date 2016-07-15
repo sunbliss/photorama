@@ -1,0 +1,31 @@
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top" style="margin-right:1em; z-index: 1;">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <i class="fa fa-bars fa-lg"></i>
+            </button>
+            <a href="{{ site.baseurl }}/" title="HOME"><img src="{{ site.baseurl }}/logo.png" alt="logo" style="width:150px;cursor:pointer;margin-top:15px;"/></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right" style="margin-right:1em; text-shadow: -.025em -.025em 0 rgba(0, 133, 161, 0.75), .025em -.025em 0 rgba(0, 133, 161, 0.75), -.025em .025em 0 rgba(0, 133, 161, 0.75), .025em .025em 0 rgba(0, 133, 161, 0.75);">
+               {% for nav_hash in site.nav %}
+          {% for nav_item in nav_hash %}
+            {% assign lowercase_nav_item = nav_item[0] | downcase %}
+            {% if page.active == lowercase_nav_item %}
+              <li class="active"><a href="{{ nav_item[1] }}">{{ nav_item[0] }}</a></li>
+            {% else %}
+              <li><a href="{{ nav_item[1] }}">{{ nav_item[0] }}</a></li>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+                            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+

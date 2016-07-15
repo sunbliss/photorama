@@ -1,0 +1,35 @@
+---
+layout: page
+title: categories
+description: archive
+header-img: "img/misc-bg.jpg"
+---
+
+<div id="post-content">
+    {% if site.categories[page.category] %}
+        {% for post in site.categories[page.category] %}
+            {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
+            {% if forloop.first %}
+                <h3>{{ post_year }}</h3><div class="list-group" style="display: inline-block;">
+            {% endif %}
+			
+            {% if forloop.first == false %}
+                {% assign previous_index = forloop.index0 | minus: 1 %}
+                {% capture previous_post_year %}{{ site.categories[page.category][previous_index].date | date: '%Y' }}{% endcapture %}
+                {% if post_year != previous_post_year %}
+                    </div><h3>{{ post_year }}</h3><div class="list-group">
+                {% endif %}
+            {% endif %}
+			
+            <a href="{{ site.baseurl }}{{ post.url }}">
+                <h4>{{ post.title }}</h4>
+            </a>
+
+            {% if forloop.last %}
+                </div>
+            {% endif %}
+        {% endfor %}
+    {% else %}
+        <p>There are no posts in this category.</p>
+    {% endif %}
+</div>

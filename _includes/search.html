@@ -1,0 +1,23 @@
+<a href="javascript:void(0)" title="SEARCH" onclick="superSearch.toggle()" class="super-search-btn">
+<span class="fa fa-search" style="font-size:1em; position:fixed; right: .75em; top: 1em; z-index: 2;"></span>
+</a>
+<div class="super-search" id="js-super-search">
+<a href="javascript:void(0)" onclick="superSearch.toggle()" class="super-search__close-btn"">
+<span class="fa fa-close" style="font-size:48px;"></span>
+</a>
+<input type="text" placeholder="Type here to search" class="super-search__input" id="js-super-search__input">
+<ul class="super-search__results" id="js-super-search__results"></ul>
+</div>
+
+
+
+ <script src="{{ site.baseurl }}/js/super-search.js"></script>
+
+<script>
+superSearch({
+    searchFile: '{{ site.baseurl }}/feed.xml',
+    searchSelector: '#js-super-search', // CSS Selector for search container element.
+    inputSelector: '#js-super-search__input', // CSS selector for <input>
+    resultsSelector: '#js-super-search__results' // CSS selector for results container
+});
+</script>

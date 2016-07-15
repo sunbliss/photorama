@@ -1,0 +1,110 @@
+/* super-search
+Author: Kushagra Gour (http://kushagragour.in)
+MIT Licensed
+*/
+.super-search-btn {
+	color: #fff;
+    transition: color .4s;
+    text-shadow: 2px 2px #000;
+}
+.super-search-btn:hover {
+	color: #6ec54d;
+    transition: color .3s;
+    text-shadow: none;
+}
+
+.super-search {
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.95);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+	transition: 0.2s ease;
+	visibility: hidden;
+	opacity: 0;
+}
+.super-search__close-btn {
+	color: #d3d3d3;
+     transition: color .4s;
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	z-index: 1;
+}
+.super-search__close-btn:hover {
+	color: #fff;
+     transition: color .3s;
+}
+.super-search__input {
+	border: 0;
+	font-size: 50px;
+	border-left: none;
+	border-right: none;
+	color: #f9f9f9;
+    background-color: #000;
+	width: 100%;
+    outline: 0;
+	padding: 10px 31px;
+	text-align: center;
+	transform: translateY(-100%);
+	transition: 0.15s ease-out 150ms;
+}
+.is-active .super-search__input {
+	transform: translateY(0);
+}
+.super-search__results {
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	overflow-x: hidden;
+	height: calc(100% - 110px);
+	transition: 0.2s ease;
+}
+.super-search__results.is-hidden {
+	opacity: 0;
+	transform: translateY(-1vh);
+}
+
+.super-search__results > li > a {
+     font-size: 1.25em;
+	display: block;
+	position: relative;
+	background-color: #111;
+	padding: 17px;
+	margin: 12px 14px;
+	box-shadow: 0 0px 8px rgba(255,255,255,0.45);
+}
+.super-search__result-date {
+	color: #BBB;
+	position: absolute;
+	right: 12px;
+}
+@media (max-width: 750px) {
+.super-search__result-date {
+    position: static;
+    display: block;
+ }
+}
+.super-search.is-active {
+	opacity: 1;
+	visibility: visible;
+     z-index: 3;
+}
+
+.super-search__input::-webkit-input-placeholder {
+   color: rgba(138, 17, 17, .45);
+}
+
+.super-search__input:-moz-placeholder { /* Firefox 18- */
+   color: rgba(138, 17, 17, .45);  
+}
+
+.super-search__input::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(138, 17, 17, .45);  
+}
+
+.super-search__input:-ms-input-placeholder {  
+   color: rgba(138, 17, 17, .45);  
+}

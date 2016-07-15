@@ -1,0 +1,86 @@
+---
+layout: page
+description: "Journal"
+title: "Writings"
+active: journal
+header-img: "img/writing-bg.jpg"
+---
+
+<head>
+<link rel="stylesheet" href="{{ site.baseurl }}/css/journal.css" media="screen" />
+</head>
+
+<body class="journal">
+<div class="archive">
+  <h1 class="archive-title" style="display:inline-block;"> POSTS </h1>
+
+<div style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; display:inline-block;margin-left:.5em;">
+    Browse by <a href="{{ site.baseurl }}/journal/category/">Category</a> or <a href="{{ site.baseurl }}/journal/tag/">Tag</a>
+  </div>
+</div>
+
+<section class="section--postsWrapper">
+  <div class="container">
+    <div class="blockGroup">
+      <ul class="blockGroup-list">
+
+{% for post in paginator.posts %}
+
+
+ {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  
+<li class="block">
+<div class="postArticle-wrapper">
+
+<div class="post-preview" style="border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #530720;">
+    
+<a href="{{ post.url | prepend: site.baseurl }}">
+        {% if post.image.feature %}
+	<img src="{{ site.baseurl }}/img/postcover/{{ post.image.feature }}">
+	{% endif %}
+ 
+ 
+        <p class="post-title" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; margin-left: 1em;"> &#9658; {{ post.title }}
+        </p>
+</a>
+        {% if post.subtitle %}
+        <p class="post-subtitle" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 12px; margin-left: 1em;"> {{ post.subtitle }}</p>
+        {% endif %}
+    
+    <p class="post-meta" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 10px; margin-left: 1em;"> Posted on {{ post.date | date: "%B %-d, %Y" }}</p>
+</div>
+
+</div>
+</li>
+ {% endfor %}
+<p>&nbsp;</p>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;" >
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+
+<span class="button-height"> Page {{paginator.page}} of {{paginator.total_pages}}</span>
+
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
+
+<br>
+<h6>Image Source: <a href="https://unsplash.com/photos/8muUTAmcWU4">UNSPLASH</a>
+
+</body>
