@@ -3,9 +3,6 @@ p h o t o r a m a
 
 ![photorama](https://raw.githubusercontent.com/sunbliss/photorama/gh-pages/photorama_thumb.gif)
 
-
-![Speed Test](https://raw.githubusercontent.com/sunbliss/photorama/gh-pages/Website%20Speed%20Test.png)
-
 ----------
 
 ---> [DEMO](http://sunbliss.github.io/photorama/ "DEMO")  <---
