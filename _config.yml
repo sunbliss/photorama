@@ -1,7 +1,7 @@
 # Site settings
 title: PHOTORAMA
 email: ""
-description: "Photo Journal"
+description: "DorsetBirdHouse"
 url: "http://goldsmithd.github.io"
 baseurl: "/dorsetbirdhouse"
 facebook_username: ""
@@ -15,10 +15,10 @@ share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   DorsetBirdHouse
   avatar: avatar.png
   favicon: favicon.ico
-  info: photography website template
+  info: DorsetBirdHouse  website template
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
