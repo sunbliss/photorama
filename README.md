@@ -9,7 +9,7 @@ p h o t o r a m a
 
 ----------
 
-A theme for **jekyll**. 
+A theme for **jekyll**. .
 
 Created for gh-pages (project page).
 
