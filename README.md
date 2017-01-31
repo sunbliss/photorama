@@ -18,8 +18,19 @@ This template was crafted having in mind the photobloggers.
 It uses [Clean Blog](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll "Clean Blog") as its basis.
 
 ----------
+## Change Log
 
-The template has been **revised** as of *July 15th, 2016*
+### Version 1.2 (1/31/2017)
+
+* Fixed footer code so that the twitter icon links to the twitter_username instead of instagram_username.
+
+### Version 1.1 (7/15/2016)
+
+* Improved galleries and search section.
+* Better rendering of the header text.
+
+### Version 1.0 (6/19/2016)
+* Initial Template
 
 ----------
 
