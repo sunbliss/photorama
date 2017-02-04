@@ -5,7 +5,7 @@ p h o t o r a m a
 
 ----------
 
----> [DEMO](http://sunbliss.github.io/photorama/ "DEMO")  <---
+---> [DEMO](https://sunbliss.github.io/photorama/ "DEMO")  <---
 
 ----------
 
@@ -19,6 +19,15 @@ It uses [Clean Blog](https://github.com/BlackrockDigital/startbootstrap-clean-bl
 
 ----------
 ## Change Log
+
+### Version 2.0 (2/4/2017)
+
+* HTTPS is now enforced. 
+
+**Custom Domains are not supported.**
+
+For the time being, the only way to apply a custom domain name is by removing HTTPS as of the previous version. 
+Hoping Github developers will give its users the ability to add a custom domain served under security.
 
 ### Version 1.2 (1/31/2017)
 
@@ -37,9 +46,9 @@ It uses [Clean Blog](https://github.com/BlackrockDigital/startbootstrap-clean-bl
  **IMPORTANT!!!**
 ================
 
-###Before you begin: Change the URL and the BASEURL as well as the internal nav links in the _config.yml
+### Before you begin: Change the URL and the BASEURL as well as the internal nav links in the _config.yml
 
-The **URL** should say `http://yourusername.github.io`
+The **URL** should say `https://yourusername.github.io`
 
 The **BASEURL** should say `/repositoryname`
 
@@ -47,13 +56,18 @@ The **BASEURL** should say `/repositoryname`
 
   nav:
 
-  - GALLERY: `"http://yourusername.github.io/repositoryname/gallery/"`
-  - JOURNAL: `"http://yourusername.github.io/repositoryname/journal/"`
-  - ABOUT: `"http://yourusername.github.io/repositoryname/about/`"
+  - GALLERY: `"https://yourusername.github.io/repositoryname/gallery/"`
+  - JOURNAL: `"https://yourusername.github.io/repositoryname/journal/"`
+  - ABOUT: `"https://yourusername.github.io/repositoryname/about/`"
 
 If there are problems with loading assets like CSS files and images, make sure that both **URL** and **BASEURL** are set correctly!!! 
 
 ----------
+
+ **NOT FOR HTTPS served repos!!!**
+==================================
+
+* Applies for v1.2!
 
 If you want to use your **own domain** go to the root of your project's repository, create a CNAME file and add a line with your domain name, e.g. `www.yourdomain.com`.
 
@@ -76,7 +90,7 @@ Usage
 2. Create a new branch called `gh-pages` in your repository. 
 3. Go to the branches directory at `https://github.com/yourusername/repositoryname/branches` and *change* **default branch** to **gh-pages**.
 4. Delete **master** branch. 
-3. GitHub will build your site automatically and publish it at `http://yourusername.github.io/repositoryname/`.  
+3. GitHub will build your site automatically and publish it at `https://yourusername.github.io/repositoryname/`.  
 
 ----------
 
@@ -118,7 +132,7 @@ All the credits and the helpers can be found at **ABOUT** page.
 
 ----------
 
-Read <a href="http://sunbliss.github.io/photorama/journal/images-size-for-better-performance/">**this**</a> post if you want to ensure your website always loads fast.
+Read <a href="https://sunbliss.github.io/photorama/journal/images-size-for-better-performance/">**this**</a> post if you want to ensure your website always loads fast.
 
 
 ----------
