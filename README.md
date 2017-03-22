@@ -20,6 +20,12 @@ It uses [Clean Blog](https://github.com/BlackrockDigital/startbootstrap-clean-bl
 ----------
 ## Change Log
 
+### Version 2.1 (3/22/2017)
+
+* Fixed script loading. 
+* Fixed padding bottom for the navbar toggle menu.
+
+
 ### Version 2.0 (2/4/2017)
 
 * HTTPS is now enforced. 
