@@ -37,7 +37,7 @@ h4 { font-weight: normal; font-size: 1.15em; margin: 0 0 .5em 0; line-height: 1.
 h5 { font-weight: bold; font-size: 1em; margin: 0 0 .5em 0; line-height: 1.4; }
 h6 { font-weight: bold; font-size: .8em; margin: 0 0 .5em 0; line-height: 1.4; }
 p { padding: 0 0 1.5em 0; line-height: 1.6; }
-ul, ol { padding: 0 0 1.5em 2em; line-height: 1.6; list-style: disc; }
+ul, ol { padding: 0; line-height: 1.6; list-style: disc; }
 ol { list-style: decimal; }
 strong, input, button, .button { font-weight: bold; }
 nav ul { list-style: none; }
