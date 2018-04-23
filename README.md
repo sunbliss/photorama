@@ -20,6 +20,10 @@ It uses [Clean Blog](https://github.com/BlackrockDigital/startbootstrap-clean-bl
 ----------
 ## Change Log
 
+### Version 2.2 (4/23/2018)
+
+<a href="https://github.com/sunbliss/photorama/wiki/How-to-get-SSL-on-Jekyll%3F"> How to get SSL Certificate (Https) For Jekyll</a>
+
 ### Version 2.1 (3/22/2017)
 
 * Fixed script loading. 
@@ -30,10 +34,10 @@ It uses [Clean Blog](https://github.com/BlackrockDigital/startbootstrap-clean-bl
 
 * HTTPS is now enforced. 
 
-**Custom Domains are not supported.**
+~~**Custom Domains are not supported.**~~
 
-For the time being, the only way to apply a custom domain name is by removing HTTPS as of the previous version. 
-Hoping Github developers will give its users the ability to add a custom domain served under security.
+~~For the time being, the only way to apply a custom domain name is by removing HTTPS as of the previous version. 
+Hoping Github developers will give its users the ability to add a custom domain served under security.~~
 
 ### Version 1.2 (1/31/2017)
 
@@ -70,10 +74,10 @@ If there are problems with loading assets like CSS files and images, make sure t
 
 ----------
 
- **NOT FOR HTTPS served repos!!!**
+~~**NOT FOR HTTPS served repos!!!**~~
 ==================================
 
-* Applies for v1.2!
+~~* Applies for v1.2!~~
 
 If you want to use your **own domain** go to the root of your project's repository, create a CNAME file and add a line with your domain name, e.g. `www.yourdomain.com`.
 
