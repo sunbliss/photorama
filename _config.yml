@@ -3,7 +3,7 @@ title: Mairon
 email: "Mairon.Mahzoun@gmail.com"
 description: "My Personal Page"
 url: "https://mahzoun.github.io"
-baseurl: "/mahzoun.github.io"
+baseurl: "/homepage"
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -15,10 +15,10 @@ share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name: Mairon
   avatar: avatar.png
   favicon: favicon.ico
-  info: photography website template
+  info: photography website
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://mahzoun.github.io/mahzoun.github.io/gallery/"
-  - JOURNAL: "https://mahzoun.github.io/mahzoun.github.io/journal/"
-  - ABOUT: "https://mahzoun.github.io/mahzoun.github.io/about/"
+  - GALLERY: "https://mahzoun.github.io/homepage/gallery/"
+  - JOURNAL: "https://mahzoun.github.io/homepage/journal/"
+  - ABOUT: "https://mahzoun.github.io/homepage/about/"
 
 # All translation keys
 translations:
