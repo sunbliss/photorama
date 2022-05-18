@@ -1,8 +1,8 @@
 # Site settings
-title: PHOTORAMA
+title: Emily Twines
 email: ""
-description: "Photo Journal"
-url: "https://sunbliss.github.io"
+description: "Visual and Interactive Media Specialist"
+url: "https://emilytwines.github.io"
 baseurl: "/photorama"
 facebook_username: ""
 twitter_username: ""
@@ -15,7 +15,7 @@ share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   Emily Twines
   avatar: avatar.png
   favicon: favicon.ico
   info: photography website template
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - GALLERY: "https://emilytwines.github.io/gallery/gallery/"  
+  - JOURNAL: "https://emilytwines.github.io/gallery/journal/"
+  - ABOUT: "https://emilytwines.github.io/gallery/about/"
 
 # All translation keys
 translations:
