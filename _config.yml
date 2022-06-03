@@ -1,12 +1,12 @@
 # Site settings
-title: PHOTORAMA
-email: ""
+title: Maria Thess Photography
+email: "mariatheresapaz@gmail.com"
 description: "Photo Journal"
-url: "https://sunbliss.github.io"
-baseurl: "/photorama"
-facebook_username: ""
+url: "https://milobyte.github.io"
+baseurl: "/mariathessphoto"
+facebook_username: "mariethessphotographie/"
 twitter_username: ""
-instagram_username: ""
+instagram_username: "mariethess_paz/"
 github_username:  ""
 deviantart_username: ""
 flickr_username: ""
@@ -15,7 +15,7 @@ share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   milobyte
   avatar: avatar.png
   favicon: favicon.ico
   info: photography website template
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - GALLERY: "https://milobyte.github.io/mariathessphoto/gallery/"
+  - JOURNAL: "https://milobyte.github.io/mariathessphoto/journal/"
+  - ABOUT: "https://milobyte.github.io/mariathessphoto/about/"
 
 # All translation keys
 translations:
@@ -56,7 +56,7 @@ paginate_path: "/journal/page:num/"
 permalink: "/journal/:title/"
 categories_path: "/journal/category/"
 tags_path: "/journal/tag/"
-gems: 
+gems:
  - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
