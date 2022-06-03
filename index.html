@@ -1,6 +1,6 @@
 ---
 layout: home
-main-title: "PHOT&#8226;O&#8226;RAMA"
+main-title: "Maria Thess Photography"
 subtitle: "Photo Journal"
 description: "Photography and more"
 images:
@@ -30,7 +30,7 @@ images:
 
 
 
-  
+
 
 </head>
 
@@ -44,35 +44,35 @@ images:
 
 		<div class="position-absolute">
 				<h2 class="big no-margin"><strong>{{ page.main-title }}</strong></h2>
-				<h2>{{ page.subtitle }}</h2> 
+				<h2>{{ page.subtitle }}</h2>
                      <div class="entry-summary">
 							<p>{{ page.description }}</p>
 						</div><br />
 			</div>
-			
+
 			<div class="gallery fullscreen-gallery kenburns-gallery">
 
 				<canvas id="kenburns"></canvas>
-				
-{% for image in page.images %}  	
+
+{% for image in page.images %}
 
 				<figure class="gallery-item">
 					<header class='gallery-icon'>
 
 <a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
 <img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
-	
-				</header>	
+
+				</header>
 				</figure>
 
 {% endfor %}
 
 				</div>
 			<!-- END WYSIWYG -->
-			
-	
+
+
 		</div><!-- END .wrapper -->
-		
+
 	</section>
 
 <div id="footer" role="contentinfo">
@@ -108,14 +108,14 @@ color:#dddddd; target="_blank" title="Instagram">
 color:#dddddd; target="_blank" title="Flickr">
               <i class="fa fa-flickr"></i>
                      </span>
- </a></li>	
+ </a></li>
      {% endif %}
                     {% if site.deviantart_username %}
 			<li>
    <a href="http://{{ site.deviantart_username }}.deviantart.com" style="
 color:#dddddd; target="_blank" title="DeviantArt">
 <i class="fa fa-deviantart"></i> </span>
-</a></li>	
+</a></li>
     {% endif %}
                     {% if site.github_username %}
                 <li>
@@ -129,17 +129,17 @@ color:#dddddd; target="_blank" title="Github">
 color:#dddddd; target="_blank" title="Email">
               <i class="fa fa-envelope-o"></i></span>
           </a> </li>
-	
-					
-		</ul>	
+
+
+		</ul>
 	</div>
 
-  
+
 <!-- jQuery -->
   <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
       <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-  <script src="{{ site.baseurl }}/js/retina.min.js"></script> 
+  <script src="{{ site.baseurl }}/js/retina.min.js"></script>
 
 <!-- include mousewheel plugins -->
 <script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
@@ -155,4 +155,3 @@ color:#dddddd; target="_blank" title="Email">
 
        </body>
     </html>
-
