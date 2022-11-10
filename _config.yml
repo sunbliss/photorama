@@ -2,8 +2,8 @@
 title: PHOTORAMA
 email: ""
 description: "Photo Journal"
-url: "https://iverybee.github.io"
-baseurl: "/photoramaKira"
+url: "kiramisuarts.quercom.myds.me"
+baseurl: "/"
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://iverybee.github.io/photoramaKira/gallery/"  
-  - JOURNAL: "https://iverybee.github.io/photoramaKira/journal/"
-  - ABOUT: "https://iverybee.github.io/photoramaKira/about/"
+  - GALLERY: "kiramisuarts.quercom.myds.me/gallery/"  
+  - JOURNAL: "kiramisuarts.quercom.myds.me/journal/"
+  - ABOUT: "kiramisuarts.quercom.myds.me/about/"
 
 # All translation keys
 translations:
