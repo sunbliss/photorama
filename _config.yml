@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "kiramisuarts.quercom.myds.me/gallery/"  
-  - JOURNAL: "kiramisuarts.quercom.myds.me/journal/"
-  - ABOUT: "kiramisuarts.quercom.myds.me/about/"
+  - GALLERY: "/gallery/"  
+  - JOURNAL: "/journal/"
+  - ABOUT: "/about/"
 
 # All translation keys
 translations:
