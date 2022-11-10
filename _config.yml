@@ -3,7 +3,7 @@ title: PHOTORAMA
 email: ""
 description: "Photo Journal"
 url: "https://iverybee.github.io"
-baseurl: "/photorama"
+baseurl: "/photoramaKira"
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -15,7 +15,7 @@ share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   photoramaKira
   avatar: avatar.png
   favicon: favicon.ico
   info: photography website template
