@@ -1,9 +1,9 @@
 # Site settings
-title: PHOTORAMA
+title: kiramisuarts
 email: ""
 description: "Photo Journal"
-url: "kiramisuarts.quercom.myds.me"
-baseurl: "/"
+url: "https://kiramisuarts.quercom.myds.me"
+baseurl: ""
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -18,7 +18,7 @@ owner:
   name:   kiramisuarts
   avatar: avatar.png
   favicon: favicon.ico
-  info: photography website template
+  info: El Wardagy, Kira
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "/gallery/"  
-  - JOURNAL: "/journal/"
-  - ABOUT: "/about/"
+  - GALLERY: "/gallery"  
+  - JOURNAL: "/journal"
+  - ABOUT: "/about"
 
 # All translation keys
 translations:
