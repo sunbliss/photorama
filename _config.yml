@@ -11,14 +11,14 @@ github_username:  ""
 deviantart_username: ""
 flickr_username: ""
 discus_shortname: ""
-share: true
+share: false
 
 # Owner/author information
 owner:
   name:   kiramisuarts
   avatar: avatar.png
   favicon: favicon.ico
-  info: El Wardagy, Kira
+  info: Kira, El Wardagy
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
