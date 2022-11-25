@@ -17,6 +17,7 @@ layout: default
 
 {% assign post = page %}
 
+
 <article>
 <!-- Post Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% endif %}')">
@@ -57,7 +58,13 @@ layout: default
         <div class="row">
             
 
-               				{{ content }}
+                  <p>
+                     {{ page.date | date_to_string }} {% assign author = site.authors | where: 'name', page.author |
+                   first %} {% if author %} - <a href="{{ author.url }}">{{ author.display_name }}</a>
+                   {% endif %}
+                  </p>
+
+                  {{ content }}
 
                 <br>
           <br>
