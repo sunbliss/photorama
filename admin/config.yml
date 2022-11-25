@@ -2,7 +2,7 @@
 
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: WIP # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
@@ -50,4 +50,19 @@ collections:
         - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
         - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
         - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'config'
+  label: 'Config'
+  editor:
+    preview: false
+  files:
+    - label: 'Navigation'
+      name: 'navigation'
+      file: '_data/navigation.yml'
+      fields:
+        - label: 'Navigation Items'
+          name: 'items'
+          widget: 'list'
+          fields:
+            - { label: Name, name: name, widget: string }
+            - { label: Link, name: link, widget: string }
 
