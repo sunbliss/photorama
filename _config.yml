@@ -71,3 +71,13 @@ sitemap:
         - "/writing/"
     change_frequency_name: "change_frequency"
     priority_name: "priority"
+    
+# jekyll_admin
+jekyll_admin:
+    hidden_links:
+      - posts
+      - pages
+      - staticfiles
+      - datafiles
+      - configuration
+    homepage: "pages"
