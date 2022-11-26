@@ -1,9 +1,9 @@
 # Site settings
-title: PHOTORAMA
+title: kiramisuarts
 email: ""
 description: "Photo Journal"
-url: "https://sunbliss.github.io"
-baseurl: "/photorama"
+url: "https://kiramisuarts.quercom.myds.me"
+baseurl: ""
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -11,14 +11,14 @@ github_username:  ""
 deviantart_username: ""
 flickr_username: ""
 discus_shortname: ""
-share: true
+share: false
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   kiramisuarts
   avatar: avatar.png
   favicon: favicon.ico
-  info: photography website template
+  info: Kira, El Wardagy
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - GALLERY: "/gallery"  
+  - JOURNAL: "/journal"
+  - ABOUT: "/about"
 
 # All translation keys
 translations:
@@ -71,3 +71,13 @@ sitemap:
         - "/writing/"
     change_frequency_name: "change_frequency"
     priority_name: "priority"
+    
+# jekyll_admin
+jekyll_admin:
+    hidden_links:
+      - posts
+      - pages
+      - staticfiles
+      - datafiles
+      - configuration
+    homepage: "pages"

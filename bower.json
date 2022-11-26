@@ -1,10 +1,10 @@
 {
-  "name": "photorama",
-  "description": "Photo Journal",
+  "name": "KiramisuArts",
+  "description": "Handwerk Portfolio",
   "main": "index.html",
   "moduleType": [],
   "authors": [
-    "Anna Prigkipaki"
+    "Ivan Babayev"
   ],
   "license": "Apache-2.0",
   "homepage": "",
